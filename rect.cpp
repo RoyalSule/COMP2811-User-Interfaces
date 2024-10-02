@@ -36,7 +36,7 @@ double Rectangle::getHeight() const
 
 double Rectangle::perimeter() const
 {
-    return 2 * (width * height);
+    return 2 * (width + height);
 }
 
 double Rectangle::area() const
