@@ -11,6 +11,7 @@ class Rectangle
         double getHeight() const;
         double perimeter() const;
         double area() const;
+        
     private:
         double xorigin, yorigin;
         double width, height;
