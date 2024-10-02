@@ -3,15 +3,14 @@
 class Rectangle 
 {    
     public:
-        Rectangle(double w, double h) : Rectangle(0, 0, w, h) {};
+        Rectangle(double, double);
         Rectangle(double, double, double, double);
-        double getX() const { return xorigin; }
-        double getY() const { return yorigin; }
-        double getWidth() const { return width; }
-        double getHeight() const { return height; }
-        double perimeter() const { return 2 * (width + height); }
-        double area() const { return width * height; }
-
+        double getX() const;
+        double getY() const;
+        double getWidth() const;
+        double getHeight() const;
+        double perimeter() const;
+        double area() const;
     private:
         double xorigin, yorigin;
         double width, height;
