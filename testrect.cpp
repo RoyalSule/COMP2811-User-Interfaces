@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    Rectangle r(10, 20);
+    Rectangle r(40, 25);
 
     cout << "Origin = (" << r.getX() << ", " << r.getY() << ")"
          << "\nWidth = " << r.getWidth()
