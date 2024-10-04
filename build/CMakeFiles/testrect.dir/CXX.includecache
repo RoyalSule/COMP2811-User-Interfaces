@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/workspaces/COMP2811-User-Interfaces/rect.cpp
-stdexcept
--
-rect.hpp
-/workspaces/COMP2811-User-Interfaces/rect.hpp
-
 /workspaces/COMP2811-User-Interfaces/rect.hpp
 
 /workspaces/COMP2811-User-Interfaces/testrect.cpp
