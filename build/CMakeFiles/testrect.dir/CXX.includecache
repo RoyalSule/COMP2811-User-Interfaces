@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/workspaces/COMP2811-User-Interfaces/rect.cpp
+stdexcept
+-
+rect.hpp
 /workspaces/COMP2811-User-Interfaces/rect.hpp
+
+/workspaces/COMP2811-User-Interfaces/rect.hpp
+shape.hpp
+/workspaces/COMP2811-User-Interfaces/shape.hpp
+
+/workspaces/COMP2811-User-Interfaces/shape.hpp
 
 /workspaces/COMP2811-User-Interfaces/testrect.cpp
 stdexcept
