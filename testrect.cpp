@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     try {
-        Rectangle r(0, 0);
+        Rectangle r(40, 25);
 
         cout << "Origin = (" << r.getX() << ", " << r.getY() << ")"
              << "\nWidth = " << r.getWidth()
