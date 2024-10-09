@@ -57,42 +57,42 @@ include CMakeFiles/testrect.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testrect.dir/flags.make
 
-CMakeFiles/testrect.dir/testrect.cpp.o: CMakeFiles/testrect.dir/flags.make
-CMakeFiles/testrect.dir/testrect.cpp.o: ../testrect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/COMP2811-User-Interfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testrect.dir/testrect.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testrect.dir/testrect.cpp.o -c /workspaces/COMP2811-User-Interfaces/testrect.cpp
+CMakeFiles/testrect.dir/shapedemo.cpp.o: CMakeFiles/testrect.dir/flags.make
+CMakeFiles/testrect.dir/shapedemo.cpp.o: ../shapedemo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/COMP2811-User-Interfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testrect.dir/shapedemo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testrect.dir/shapedemo.cpp.o -c /workspaces/COMP2811-User-Interfaces/shapedemo.cpp
 
-CMakeFiles/testrect.dir/testrect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testrect.dir/testrect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/COMP2811-User-Interfaces/testrect.cpp > CMakeFiles/testrect.dir/testrect.cpp.i
+CMakeFiles/testrect.dir/shapedemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testrect.dir/shapedemo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/COMP2811-User-Interfaces/shapedemo.cpp > CMakeFiles/testrect.dir/shapedemo.cpp.i
 
-CMakeFiles/testrect.dir/testrect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testrect.dir/testrect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/COMP2811-User-Interfaces/testrect.cpp -o CMakeFiles/testrect.dir/testrect.cpp.s
+CMakeFiles/testrect.dir/shapedemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testrect.dir/shapedemo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/COMP2811-User-Interfaces/shapedemo.cpp -o CMakeFiles/testrect.dir/shapedemo.cpp.s
 
-CMakeFiles/testrect.dir/rect.cpp.o: CMakeFiles/testrect.dir/flags.make
-CMakeFiles/testrect.dir/rect.cpp.o: ../rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/COMP2811-User-Interfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testrect.dir/rect.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testrect.dir/rect.cpp.o -c /workspaces/COMP2811-User-Interfaces/rect.cpp
+CMakeFiles/testrect.dir/circle2.cpp.o: CMakeFiles/testrect.dir/flags.make
+CMakeFiles/testrect.dir/circle2.cpp.o: ../circle2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/COMP2811-User-Interfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testrect.dir/circle2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testrect.dir/circle2.cpp.o -c /workspaces/COMP2811-User-Interfaces/circle2.cpp
 
-CMakeFiles/testrect.dir/rect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testrect.dir/rect.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/COMP2811-User-Interfaces/rect.cpp > CMakeFiles/testrect.dir/rect.cpp.i
+CMakeFiles/testrect.dir/circle2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testrect.dir/circle2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/COMP2811-User-Interfaces/circle2.cpp > CMakeFiles/testrect.dir/circle2.cpp.i
 
-CMakeFiles/testrect.dir/rect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testrect.dir/rect.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/COMP2811-User-Interfaces/rect.cpp -o CMakeFiles/testrect.dir/rect.cpp.s
+CMakeFiles/testrect.dir/circle2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testrect.dir/circle2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/COMP2811-User-Interfaces/circle2.cpp -o CMakeFiles/testrect.dir/circle2.cpp.s
 
 # Object files for target testrect
 testrect_OBJECTS = \
-"CMakeFiles/testrect.dir/testrect.cpp.o" \
-"CMakeFiles/testrect.dir/rect.cpp.o"
+"CMakeFiles/testrect.dir/shapedemo.cpp.o" \
+"CMakeFiles/testrect.dir/circle2.cpp.o"
 
 # External object files for target testrect
 testrect_EXTERNAL_OBJECTS =
 
-testrect: CMakeFiles/testrect.dir/testrect.cpp.o
-testrect: CMakeFiles/testrect.dir/rect.cpp.o
+testrect: CMakeFiles/testrect.dir/shapedemo.cpp.o
+testrect: CMakeFiles/testrect.dir/circle2.cpp.o
 testrect: CMakeFiles/testrect.dir/build.make
 testrect: CMakeFiles/testrect.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/COMP2811-User-Interfaces/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testrect"

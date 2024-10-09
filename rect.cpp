@@ -1,15 +1,8 @@
 #include <stdexcept>
 #include "rect.hpp"
+#include <iostream>
 
 using namespace std;
-
-Rectangle::Rectangle(double w, double h) :
-    Shape(0, 0), width(w), height(h)
-{
-    if (width <= 0.0 || height <= 0.0) {
-        throw invalid_argument("dimensions must be > 0\n");
-    }
-}
 
 Rectangle::Rectangle(double x, double y, double w, double h):
     Shape(x, y), width(w), height(h)
@@ -19,22 +12,12 @@ Rectangle::Rectangle(double x, double y, double w, double h):
     }
 }
 
-double Rectangle::getWidth() const
+void Rectangle::draw() const 
 {
-    return width;
-}
-
-double Rectangle::getHeight() const
-{
-    return height;
-}
-
-double Rectangle::perimeter() const
-{
-    return 2 * (width + height);
-}
-
-double Rectangle::area() const
-{
-    return width * height;
+    cout << "Drawing Cirle("
+         << "x=" << getX()
+         << ",y=" << getY()
+         << ",w=" << getWidth()
+         << ",h=" << getHeight()
+         << ")" << endl;
 }

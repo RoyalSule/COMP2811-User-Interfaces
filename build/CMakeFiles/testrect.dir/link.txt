@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/testrect.dir/testrect.cpp.o CMakeFiles/testrect.dir/rect.cpp.o  -o testrect 
+/usr/bin/c++     CMakeFiles/testrect.dir/shapedemo.cpp.o CMakeFiles/testrect.dir/circle2.cpp.o  -o testrect 

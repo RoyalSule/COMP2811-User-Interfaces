@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspaces/COMP2811-User-Interfaces/circle2.cpp" "/workspaces/COMP2811-User-Interfaces/build/CMakeFiles/testrect.dir/circle2.cpp.o"
-  "/workspaces/COMP2811-User-Interfaces/shapedemo.cpp" "/workspaces/COMP2811-User-Interfaces/build/CMakeFiles/testrect.dir/shapedemo.cpp.o"
+  "/workspaces/COMP2811-User-Interfaces/circle2.cpp" "/workspaces/COMP2811-User-Interfaces/build/CMakeFiles/shapedemo.dir/circle2.cpp.o"
+  "/workspaces/COMP2811-User-Interfaces/rect.cpp" "/workspaces/COMP2811-User-Interfaces/build/CMakeFiles/shapedemo.dir/rect.cpp.o"
+  "/workspaces/COMP2811-User-Interfaces/shapedemo.cpp" "/workspaces/COMP2811-User-Interfaces/build/CMakeFiles/shapedemo.dir/shapedemo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

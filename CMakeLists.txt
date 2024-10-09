@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(testrect testrect.cpp rect.cpp rect.hpp)
+add_executable(shapedemo shapedemo.cpp circle2.cpp rect.cpp)
